@@ -25,6 +25,10 @@ public class Vaga implements Serializable{
 	private String andar;
 
 	private EstadoVagaEnum estado;
+	
+	public Vaga() {
+		this.estado = EstadoVagaEnum.NAO_OCUPADA;
+	}
 
 	public Long getId() {
 		return id;
